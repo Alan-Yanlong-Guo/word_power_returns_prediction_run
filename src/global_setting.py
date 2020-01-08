@@ -31,11 +31,11 @@ YEAR_TEST_LIST_F = list(np.arange(YEAR_TEST_MIN + TEST_LEN - 1, YEAR_TEST_MAX + 
 YEAR_TEST_LIST = [[YEAR_TEST_LIST_I[i], YEAR_TEST_LIST_F[i]] for i in range(len(YEAR_TEST_LIST_I))]
 
 # Parent Directories
-DATA_FOLDER = '/Volumes/Seagate_2T/word_power'
-LOOK_UP_FOLDER = '/Volumes/Seagate_2T/word_power/lookup'
-CRSP_FOLDER = '/Volumes/Seagate_2T/word_power/crsp'  # '/Volumes/Seagate_2T/word_power/crsp'
-NEWS_FOLDER = '/Volumes/Seagate_2T/word_power/news'  # '/Volumes/Seagate_2T/word_power/news'
-TEMP_FOLDER = '/Users/mingyu/Desktop/temp'
+DATA_FOLDER = '/floyd/input'
+LOOK_UP_FOLDER = '/floyd/input/lookup'
+CRSP_FOLDER = '/floyd/input/crsp'  # '/Volumes/Seagate_2T/word_power/crsp'
+NEWS_FOLDER = '/floyd/input/news'  # '/Volumes/Seagate_2T/word_power/news'
+TEMP_FOLDER = '/floyd/homme/src/temp'
 SCORE_FOLDER = '/Volumes/Seagate_2T/word_power/score'
 PARAMS_FOLDER = '/Volumes/Seagate_2T/word_power/params'
 RETURN_FOLDER = '/Volumes/Seagate_2T/word_power/return'
