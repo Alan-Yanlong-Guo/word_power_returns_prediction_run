@@ -1,0 +1,12 @@
+numpy
+pandas
+scipy
+wrds
+xlrd
+matplotlib
+sas7bdat
+pytz
+tables
+sklearn
+tqdm
+seaborn
